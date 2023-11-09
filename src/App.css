@@ -1,0 +1,53 @@
+html {
+  font-family: sans-serif;
+  margin: 10px 100px;
+}
+
+#app {
+  display: flex;
+  margin: 2rem 1rem;
+}
+
+#chart {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  padding: 2rem;
+}
+
+#chart,
+#data {
+  margin: 0 2rem;
+}
+
+#data ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#data li {
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  width: 10rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+}
+
+.bar {
+  fill: #4f009e;
+}
+
+.label {
+  fill: #4f009e;
+}
+
+/* animatedScattered plot */
+
+.tick text {
+  font-size: 16px;
+}
+
+text {
+  font-size: 15px;
+}
